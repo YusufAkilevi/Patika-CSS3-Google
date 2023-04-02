@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Arial", sans-serif;
+}
+body {
+  min-width: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem 3rem;
+  font-size: 1.4rem;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.list-item {
+  list-style: none;
+}
+.list-item a {
+  text-decoration: none;
+  color: rgb(63, 63, 63);
+}
+.list-item a:hover {
+  text-decoration: underline;
+}
+.list-item .sign-in-link {
+  color: #fff;
+  font-weight: bold;
+  background-color: #4285f4;
+  border-radius: 3px;
+  padding: 1rem 2rem;
+}
+.list-item .sign-in-link:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.list-item .apps {
+  opacity: 0.55;
+}
+.list-item .apps:hover {
+  opacity: 1;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  min-height: 35rem;
+}
+.logo {
+  margin-bottom: 3rem;
+}
+.inputs {
+  position: relative;
+}
+.search-icon {
+  color: rgba(63, 63, 63, 0.493);
+  width: 2.4rem;
+  position: absolute;
+  top: 19%;
+  left: 16px;
+  z-index: 20;
+}
+.input {
+  min-width: 60rem;
+  margin-bottom: 2rem;
+  border-radius: 100rem;
+  border: 1px solid rgba(63, 63, 63, 0.235);
+  padding: 1.5rem 4.2rem;
+}
+.input:hover {
+  box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.input:focus {
+  outline: none;
+  box-shadow: 2px 1px 5px 2px rgba(0, 0, 0, 0.1);
+}
+.voice-logo {
+  position: absolute;
+  width: 2.4rem;
+  top: 10px;
+  right: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.btn {
+  border-radius: 3px;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  color: rgba(63, 63, 63, 0.8);
+  cursor: pointer;
+}
+.btn:hover {
+  border: 1px solid rgba(63, 63, 63, 0.7);
+  padding: 0.9rem 1.9rem;
+  color: rgb(63, 63, 63);
+  box-shadow: 1px 1px 2px rgba(63, 63, 63, 0.1);
+}
+footer {
+  margin-top: 30rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.6rem;
+  background-color: #f2f2f2;
+  padding: 1.6rem 3.2rem;
+  border-top: 1px solid rgba(63, 63, 63, 0.113);
+}
